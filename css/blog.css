@@ -1,0 +1,38 @@
+
+.utn{
+    color: white;
+    background-color: rgb(13, 115, 232);
+    text-align: left;
+}
+
+.menu {
+    text-align: right;
+    color: white;
+    background-color: rgb(3, 3, 100);
+    
+}
+
+.titulos{
+    border: 30px solid grey;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+ /*    flex-direction: row-reverse; */
+   /*  flex-direction: column; */
+   /* flex-wrap: nowrap; */
+   /*  flex-direction: column-reverse; */
+    flex-wrap: wrap;
+   /*  flex-wrap: wrap-reverse; */
+   /*  justify-content: flex-start; */
+   /* justify-content: center; */
+/*    justify-content: flex-end; */
+/*     justify-content: space-between; */
+    justify-content: space-around;
+}
+
+
+.footer{
+    text-align: center;
+    color: rgb(235, 230, 230);
+    background-color: rgb(104, 167, 240);
+}
