@@ -3,20 +3,35 @@
     color: white;
     background-color: rgb(13, 115, 232);
     text-align: left;
+    border-right: solid 150px white;
+    border-left: solid 150px white;
+    border-bottom: solid 1px white;
+    
 }
 
 .menu {
     text-align: right;
     color: white;
     background-color: rgb(3, 3, 100);
+    border-right: solid 150px white;
+    border-left: solid 150px white;
     
 }
 
+.lateral{
+    text-align: left;
+    color: black; 
+    background-color: rgb(152, 152, 152);
+    padding: 40px;
+}
 .titulos{
-    border: 30px solid grey;
+    
     padding: 10px;
     display: flex;
     flex-direction: row;
+    border-right: solid 150px white;
+    border-left: solid 150px white;
+    
  /*    flex-direction: row-reverse; */
    /*  flex-direction: column; */
    /* flex-wrap: nowrap; */
@@ -35,4 +50,6 @@
     text-align: center;
     color: rgb(235, 230, 230);
     background-color: rgb(104, 167, 240);
+    border-right: solid 150px white;
+    border-left: solid 150px white;
 }
