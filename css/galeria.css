@@ -14,12 +14,11 @@ font-size: 20px;
 
 .search-container{
     display: flex;
-   background-color: blue;
    width: 20%;
    align-content: space-between
 }
 nav{
-    margin-left: 250px;
+    margin-left: 320px;
     width: 25%;
     padding: 25px;
     
