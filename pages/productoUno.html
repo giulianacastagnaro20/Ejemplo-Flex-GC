@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="celular">
+        <center>
+
+        <h2>Title</h2>
+        <h3>Sub title</h3>
+
+
+        <div id="videoflor">
+            <video src="./video.mp4" width="248" height="440" id="myvideo">Video</video>
+        </div>
+         </center>
+    </div>
+
+    <center>
+        <h3 class="playvideo" onclick="vidplay()"> Video Play </h3>
+
+            <script>
+                var videoflor = document.getElementById ("myvideo");
+            
+            function vidplay(){
+                videoflor.play();
+                videoflor.setAttribute("controls","controls")
+            }
+            </script>
+</a>
+    </center>
+</body>
+</html>
