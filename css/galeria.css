@@ -3,7 +3,7 @@
 header{
     display: flex;
     align-items:baseline;
-font-size: 20px;
+    font-size: 20px;
     height: 10%;
     background: aliceblue;
     outline: 5px;
@@ -18,7 +18,7 @@ font-size: 20px;
    align-content: space-between
 }
 nav{
-    margin-left: 320px;
+    margin-left: 17%;
     width: 25%;
     padding: 25px;
     
